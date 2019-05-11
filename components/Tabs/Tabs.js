@@ -34,7 +34,7 @@ class TabLink {
     //  console.log(tabs);
     // Iterate through the NodeList removing the .active-tab class from each element
     tabs.forEach((tab) => {
-      tab.classList.remove('.active-tab');
+      tab.classList.remove('active-tab');
     });
     
 
@@ -47,7 +47,7 @@ class TabLink {
     });
     
     // Add a class of ".active-tab" to this.tabElement
-    this.tabElement.classList.add('.active-tab');
+    this.tabElement.classList.add('active-tab');
     // https://www.w3schools.com/jsref/prop_element_classlist.asp
     // console.log(this.tabElement.classList);
     // Notice we are looping through the this.cards array and invoking selectCard() from the TabCard class. Just un-comment the code and study what is happening here.
